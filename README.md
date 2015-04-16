@@ -1,3 +1,27 @@
+## rosh_core (indigo) - 1.0.9-0
+
+The packages in the `rosh_core` repository were released into the `indigo` distro by running `/usr/bin/bloom-release rosh_core --track indigo --rosdistro indigo` on `Thu, 16 Apr 2015 15:45:35 -0000`
+
+These packages were released:
+- `rosh`
+- `rosh_core`
+- `roshlaunch`
+
+Version of package(s) in repository `rosh_core`:
+- upstream repository: https://github.com/OSUrobotics/rosh_core.git
+- release repository: https://github.com/OSUrobotics/rosh_core-release.git
+- rosdistro version: `1.0.7-0`
+- old version: `1.0.7-0`
+- new version: `1.0.9-0`
+
+Versions of tools used:
+- bloom version: `0.5.19`
+- catkin_pkg version: `0.2.7`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.1`
+- vcstools version: `0.1.36`
+
+
 ## rosh_core (hydro) - 1.0.9-0
 
 The packages in the `rosh_core` repository were released into the `hydro` distro by running `/usr/bin/bloom-release rosh_core --track hydro --rosdistro hydro` on `Thu, 16 Apr 2015 15:41:57 -0000`
