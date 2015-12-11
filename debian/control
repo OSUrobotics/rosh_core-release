@@ -1,0 +1,12 @@
+Source: ros-jade-roshlaunch
+Section: misc
+Priority: extra
+Maintainer: Dan Lazewatsky <dan@lazewatsky.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin, ros-jade-rospy
+Homepage: http://ros.org/wiki/roslaunch
+Standards-Version: 3.9.2
+
+Package: ros-jade-roshlaunch
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-rosclean, ros-jade-rosgraph, ros-jade-roslib, ros-jade-rosmaster, ros-jade-rosout, ros-jade-rospy
+Description: roshlaunch is a temporary package for redesigning roslaunch to have better programmatic APIs for libraries like rosh.
