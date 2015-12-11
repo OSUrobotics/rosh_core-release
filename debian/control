@@ -1,0 +1,12 @@
+Source: ros-jade-rosh
+Section: misc
+Priority: extra
+Maintainer: Dan Lazewatsky <dan@lazewatsky.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin, ros-jade-rospy, ros-jade-rosunit
+Homepage: http://ros.org/wiki/rosh
+Standards-Version: 3.9.2
+
+Package: ros-jade-rosh
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ipython, ros-jade-rosgraph, ros-jade-roshlaunch, ros-jade-rosmsg, ros-jade-rosnode, ros-jade-rosparam, ros-jade-rospy, ros-jade-rosservice, ros-jade-rostopic
+Description: rosh is a Python-based scripting and runtime environment for ROS. Through rosh and its various plugins, you can interact with ROS APIs in an introspectable and unified approach.
